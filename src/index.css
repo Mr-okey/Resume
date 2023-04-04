@@ -51,7 +51,7 @@
 }
 
 #heading {
-    font-size: 1em;
+    font-size: 2em;
     font-family: 'Roboto Slab', serif;
     color: #193A90;
 }
@@ -144,6 +144,7 @@
 #details,
 #status {
     padding: 1em;
+    border-radius: 0.5em;
     text-decoration: none;
     background: #F7F7FC;
     width: fit-content;
@@ -185,8 +186,11 @@
     margin-top: 1em;
     white-space: pre-wrap;
 }
+#tech {
+    margin-top: 2em;
+}
 #tech-icons > img {
-    width: 75%;
+    width: 55%;
     transition: 0.2s ;
     margin-top: 1em;
 }
