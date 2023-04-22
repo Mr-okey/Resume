@@ -62,7 +62,6 @@ html, body {
 
 }
 #main {
-    background: transparent;
     position: relative;
     z-index: 3;
     padding: 1em;
@@ -136,6 +135,15 @@ html, body {
 
 #desc {
     max-width: 50%;
+}
+#desc * {
+    display: inline;
+}
+.beautiful {
+    text-shadow: 1px 1px 0px rgba(117, 117, 117, 0.137);
+    background: -webkit-linear-gradient(90deg, #D38312, #A83279);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .blue-txt {
