@@ -8,6 +8,10 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+html, body {
+    margin: 0;
+    padding: 0;
+}
 
 #design {
     overflow: hidden;
@@ -42,12 +46,29 @@
     transform: rotate(-24.5deg) translateX(7em);
 }
 
+#main::before {
+    content: "";
+    background: url("./images/background.png");
+    background-position: top;
+    background-size: 100%;
+    position: fixed;
+    margin: -1em;
+    height:100%;
+    width:100%;
+    margin-inline: auto;
+    max-width: 1200px;
+    background-repeat: no-repeat;
+    z-index: -1;
+
+}
 #main {
+    background: transparent;
     position: relative;
     z-index: 3;
     padding: 1em;
-    max-width: 1500px;
+    max-width: 1200px;
     margin-inline: auto;
+    border: 1px solid rgb(205, 203, 203);
 }
 
 #heading {
