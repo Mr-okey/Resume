@@ -1,0 +1,23 @@
+*,
+body,
+html {
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: aliceblue;
+  width: 100%;
+  height: 100%;
+}
+
+#app {
+  width: 100%;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
